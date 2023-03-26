@@ -1,13 +1,24 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <meta charset="UTF-8">
     <title>Accueil</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/epq7mib.css">
 </head>
 <body>
+<?php 
+if (isset($_SESSION['message'])) {
+    echo '<div class="alert alert-success">' . $_SESSION['message'] . '</div>';
+    unset($_SESSION['message']);
+}
+?>
 <header>
-    <div class="container">
+    <div class="header-container">
         <div class="header-content">
             <h1 class="logo">Together & Stronger</h1>
             <div class="auth-buttons">
@@ -19,7 +30,7 @@
 </header>
 
 <main>
-    <div class="container">
+    <div class="main-container">
         <h2>
             <span>Bienvenue chez</span>
             <span>Together & Stronger</span>
@@ -38,7 +49,7 @@
 </main>
 
 <footer>
-    <div class="container">
+    <div class="footer-container">
         <div class="footer-top">
             <div class="footer-logo">
                 <h3>Together & Stronger</h3>
