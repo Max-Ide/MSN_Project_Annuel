@@ -1,0 +1,15 @@
+CREATE DATABASE t_and_s;
+
+USE t_and_s;
+
+CREATE TABLE users(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nom VARCHAR(50) NOT NULL,
+    prenom VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    password CHAR(128) NOT NULL,
+    telephone VARCHAR(50) NOT NULL,
+    entreprise VARCHAR(50) NOT NULL,
+    is_admin BOOLEAN NOT NULL DEFAULT FALSE,
+    is_verified BOOLEAN NOT NULL DEFAULT FALSE
+);
