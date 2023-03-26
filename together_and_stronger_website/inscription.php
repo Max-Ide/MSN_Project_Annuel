@@ -1,5 +1,5 @@
 <?php
-require_once "includes/create_user.php";
+require_once "entities/create_user.php";
 
 ?>
 
@@ -26,7 +26,7 @@ require_once "includes/create_user.php";
     <div class="signup-container">
         <div class="form-container">
             <h2>Inscrivez-vous</h2>
-            <form action="includes/create_user.php" method="POST">
+            <form action="entities/create_user.php" method="POST">
                 <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom" required>
 
