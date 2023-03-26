@@ -1,18 +1,33 @@
+:root {
+    --primary-color: #00A693;
+    --secondary-color: #2980b9;
+    --dark-text: #666;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-.container {
+.main-container {
     max-width: 90%;
     margin: 0 auto;
     padding: 0 20px;
     text-align: center;
 }
 
+/* HEADER */
+
 header {
     background-color: #ffffff;
     padding: 20px 0;
+}
+
+.header-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
 }
 
 .header-content {
@@ -44,24 +59,26 @@ header {
 }
 
 .signup-button {
-    background-color: #00A693;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
 }
 
 .signup-button:hover {
-    background-color: #00A693;
+    background-color: var(--primary-color);
 }
 
 .login-button {
     background-color: #fff;
-    color: #00A693;
-    border: 1px solid #00A693;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .login-button:hover {
     background-color: #f2f2f2;
 }
+
+/* MAIN */
 
 main {
     background-color: #fff;
@@ -78,9 +95,6 @@ h2 span{
     font-style: normal;
 }
 
-h2 span:first-child{
-    margin-bottom: 10px;
-}
 
 .slogan {
     text-align: center;
@@ -103,7 +117,7 @@ h2 span:first-child{
     display: block;
     margin: 0 auto;
     width: 200px;
-    background-color: #00A693;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     padding: 15px 20px;
@@ -113,7 +127,7 @@ h2 span:first-child{
 }
 
 .cta-button:hover {
-    background-color: #2980b9;
+    background-color: var(--secondary-color);
 }
 
 .images-wrapper {
@@ -141,16 +155,18 @@ h2 span:first-child{
     z-index: 1;
 }
 
+/* FOOTER */
+
 footer {
     background-color: #00A693;
     padding: 20px 0;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+.footer-container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
 }
 
 .footer-top {
@@ -160,18 +176,20 @@ footer {
 }
 
 .footer-logo {
-    flex-basis: 30%;
+    text-align: left;
 }
 
 .footer-logo h3 {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
+    text-align: left;
 }
 
 .footer-nav {
-    flex-basis: 50%;
+    flex-basis: 30%;
     text-align: center;
+    padding-right: 110px;
 }
 
 .footer-nav ul {
@@ -182,16 +200,8 @@ footer {
     padding: 0;
 }
 
-.footer-nav li {
-    margin-right: 20px;
-}
-
-.footer-nav li:last-child {
-    margin-right: 0;
-}
-
 .footer-nav a {
-    color: #666;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -200,7 +210,6 @@ footer {
 }
 
 .footer-lang {
-    flex-basis: 20%;
     text-align: right;
 }
 
@@ -232,33 +241,50 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
-    color: #666;
+    color: #000000;
 }
 
 /* PAGE INSCRIPTION */
+
+.signup-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
 }
 
 label {
     margin-top: 20px;
     font-size: 16px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
-    width: 100%;
+input[type="prenom"],
+input[type="nom"],
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="tel"] {
+    width: 75%;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #ccc;
     font-size: 16px;
     margin-top: 5px;
 }
+
 
 button[type="submit"] {
     background-color: #00a65a;
@@ -266,10 +292,21 @@ button[type="submit"] {
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #32CD32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 button[type="submit"]:hover {
@@ -277,7 +314,7 @@ button[type="submit"]:hover {
 }
 
 .form-container {
-    background-color: #00A693;
+    background-color: #00a69386;
     border-radius: 5px;
     padding: 50px;
     text-align: center;
@@ -287,14 +324,44 @@ button[type="submit"]:hover {
     font-size: 36px;
     font-weight: bold;
     margin-top: 0;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
 
 @media screen and (max-width: 768px) {
+    input#nom,
+    input#prenom {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    input[type="submit"] {
+        margin-top: 20px;
+        width: 100%;
+    }
+
     .form-container {
         padding: 20px;
     }
