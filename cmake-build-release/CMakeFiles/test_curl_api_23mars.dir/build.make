@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Steph\Code DUR\test_curl_api_23mars"
+CMAKE_SOURCE_DIR = C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release"
+CMAKE_BINARY_DIR = C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_curl_api_23mars.dir/depend.make
@@ -67,55 +67,55 @@ include CMakeFiles/test_curl_api_23mars.dir/flags.make
 
 CMakeFiles/test_curl_api_23mars.dir/include/curl.c.obj: CMakeFiles/test_curl_api_23mars.dir/flags.make
 CMakeFiles/test_curl_api_23mars.dir/include/curl.c.obj: ../include/curl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test_curl_api_23mars.dir/include/curl.c.obj"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test_curl_api_23mars.dir\include\curl.c.obj -c "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\curl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test_curl_api_23mars.dir/include/curl.c.obj"
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test_curl_api_23mars.dir\include\curl.c.obj -c C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\curl.c
 
 CMakeFiles/test_curl_api_23mars.dir/include/curl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_curl_api_23mars.dir/include/curl.c.i"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\curl.c" > CMakeFiles\test_curl_api_23mars.dir\include\curl.c.i
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\curl.c > CMakeFiles\test_curl_api_23mars.dir\include\curl.c.i
 
 CMakeFiles/test_curl_api_23mars.dir/include/curl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_curl_api_23mars.dir/include/curl.c.s"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\curl.c" -o CMakeFiles\test_curl_api_23mars.dir\include\curl.c.s
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\curl.c -o CMakeFiles\test_curl_api_23mars.dir\include\curl.c.s
 
 CMakeFiles/test_curl_api_23mars.dir/include/database.c.obj: CMakeFiles/test_curl_api_23mars.dir/flags.make
 CMakeFiles/test_curl_api_23mars.dir/include/database.c.obj: ../include/database.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_curl_api_23mars.dir/include/database.c.obj"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test_curl_api_23mars.dir\include\database.c.obj -c "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\database.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_curl_api_23mars.dir/include/database.c.obj"
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test_curl_api_23mars.dir\include\database.c.obj -c C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\database.c
 
 CMakeFiles/test_curl_api_23mars.dir/include/database.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_curl_api_23mars.dir/include/database.c.i"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\database.c" > CMakeFiles\test_curl_api_23mars.dir\include\database.c.i
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\database.c > CMakeFiles\test_curl_api_23mars.dir\include\database.c.i
 
 CMakeFiles/test_curl_api_23mars.dir/include/database.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_curl_api_23mars.dir/include/database.c.s"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\database.c" -o CMakeFiles\test_curl_api_23mars.dir\include\database.c.s
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\database.c -o CMakeFiles\test_curl_api_23mars.dir\include\database.c.s
 
 CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.obj: CMakeFiles/test_curl_api_23mars.dir/flags.make
 CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.obj: ../include/json_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.obj"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test_curl_api_23mars.dir\include\json_parser.c.obj -c "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\json_parser.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.obj"
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test_curl_api_23mars.dir\include\json_parser.c.obj -c C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\json_parser.c
 
 CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.i"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\json_parser.c" > CMakeFiles\test_curl_api_23mars.dir\include\json_parser.c.i
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\json_parser.c > CMakeFiles\test_curl_api_23mars.dir\include\json_parser.c.i
 
 CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.s"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Steph\Code DUR\test_curl_api_23mars\include\json_parser.c" -o CMakeFiles\test_curl_api_23mars.dir\include\json_parser.c.s
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\include\json_parser.c -o CMakeFiles\test_curl_api_23mars.dir\include\json_parser.c.s
 
 CMakeFiles/test_curl_api_23mars.dir/main.c.obj: CMakeFiles/test_curl_api_23mars.dir/flags.make
 CMakeFiles/test_curl_api_23mars.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_curl_api_23mars.dir/main.c.obj"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test_curl_api_23mars.dir\main.c.obj -c "C:\Users\Steph\Code DUR\test_curl_api_23mars\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_curl_api_23mars.dir/main.c.obj"
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\test_curl_api_23mars.dir\main.c.obj -c C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\main.c
 
 CMakeFiles/test_curl_api_23mars.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_curl_api_23mars.dir/main.c.i"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Steph\Code DUR\test_curl_api_23mars\main.c" > CMakeFiles\test_curl_api_23mars.dir\main.c.i
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\main.c > CMakeFiles\test_curl_api_23mars.dir\main.c.i
 
 CMakeFiles/test_curl_api_23mars.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_curl_api_23mars.dir/main.c.s"
-	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Steph\Code DUR\test_curl_api_23mars\main.c" -o CMakeFiles\test_curl_api_23mars.dir\main.c.s
+	C:\TDM-GCC-32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\main.c -o CMakeFiles\test_curl_api_23mars.dir\main.c.s
 
 # Object files for target test_curl_api_23mars
 test_curl_api_23mars_OBJECTS = \
@@ -135,7 +135,7 @@ test_curl_api_23mars.exe: CMakeFiles/test_curl_api_23mars.dir/build.make
 test_curl_api_23mars.exe: CMakeFiles/test_curl_api_23mars.dir/linklibs.rsp
 test_curl_api_23mars.exe: CMakeFiles/test_curl_api_23mars.dir/objects1.rsp
 test_curl_api_23mars.exe: CMakeFiles/test_curl_api_23mars.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable test_curl_api_23mars.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable test_curl_api_23mars.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_curl_api_23mars.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -147,6 +147,6 @@ CMakeFiles/test_curl_api_23mars.dir/clean:
 .PHONY : CMakeFiles/test_curl_api_23mars.dir/clean
 
 CMakeFiles/test_curl_api_23mars.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Steph\Code DUR\test_curl_api_23mars" "C:\Users\Steph\Code DUR\test_curl_api_23mars" "C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release" "C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release" "C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-release\CMakeFiles\test_curl_api_23mars.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release C:\Users\Steph\OneDrive\Documents\GitHub\MSN_Project_Annuel\cmake-build-release\CMakeFiles\test_curl_api_23mars.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_curl_api_23mars.dir/depend
 

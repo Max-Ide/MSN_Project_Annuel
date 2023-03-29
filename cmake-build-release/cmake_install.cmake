@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Steph/Code DUR/test_curl_api_23mars
+# Install script for directory: C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Steph/Code DUR/test_curl_api_23mars/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

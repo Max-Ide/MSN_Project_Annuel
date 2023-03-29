@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Steph/Code DUR/test_curl_api_23mars/include/curl.c" "C:/Users/Steph/Code DUR/test_curl_api_23mars/cmake-build-release/CMakeFiles/test_curl_api_23mars.dir/include/curl.c.obj"
-  "C:/Users/Steph/Code DUR/test_curl_api_23mars/include/database.c" "C:/Users/Steph/Code DUR/test_curl_api_23mars/cmake-build-release/CMakeFiles/test_curl_api_23mars.dir/include/database.c.obj"
-  "C:/Users/Steph/Code DUR/test_curl_api_23mars/include/json_parser.c" "C:/Users/Steph/Code DUR/test_curl_api_23mars/cmake-build-release/CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.obj"
-  "C:/Users/Steph/Code DUR/test_curl_api_23mars/main.c" "C:/Users/Steph/Code DUR/test_curl_api_23mars/cmake-build-release/CMakeFiles/test_curl_api_23mars.dir/main.c.obj"
+  "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/include/curl.c" "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/cmake-build-release/CMakeFiles/test_curl_api_23mars.dir/include/curl.c.obj"
+  "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/include/database.c" "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/cmake-build-release/CMakeFiles/test_curl_api_23mars.dir/include/database.c.obj"
+  "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/include/json_parser.c" "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/cmake-build-release/CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.obj"
+  "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/main.c" "C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/cmake-build-release/CMakeFiles/test_curl_api_23mars.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
