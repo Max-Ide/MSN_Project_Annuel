@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="test_curl_api_23mars" targetName="test_curl_api_23mars" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="$USER_HOME$/Desktop/sqlite-amalgamation-3410200" CONFIG_NAME="Debug" BUILD_OPTIONS="-DENABLE_SQLITE=ON -DSQLITE3_INCLUDE_DIR=/chemin/vers/SQLite/include -DSQLITE3_LIBRARY=/chemin/vers/SQLite/lib/sqlite3.lib">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="CMAKE_PREFIX_PATH" value="$PROJECT_DIR$/../../../../sqlite" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc9b5979-4626-423d-8153-dde43cd7dab9" name="Changes" comment="" />
+    <list default="true" id="6d8dcbf8-515c-4861-8c0f-7133ee4376aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +27,8 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="2NgqDG2a2v0S1ehaCe8XfZvMkLg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="2NOHk6elVOUrl3Cm5ae29Ir7hvo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,24 +40,38 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/sqlite-amalgamation-3410200" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Steph\Code DUR\test_curl_api_23mars\cmake-build-debug\Testing" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="test_curl_api_23mars" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_curl_api_23mars" TARGET_NAME="test_curl_api_23mars" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test_curl_api_23mars" RUN_TARGET_NAME="test_curl_api_23mars">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dc9b5979-4626-423d-8153-dde43cd7dab9" name="Changes" comment="" />
-      <created>1680095952756</created>
+      <changelist id="6d8dcbf8-515c-4861-8c0f-7133ee4376aa" name="Changes" comment="" />
+      <created>1679528349538</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680095952756</updated>
-      <workItem from="1680095956721" duration="24000" />
-      <workItem from="1680096295857" duration="15000" />
+      <updated>1679528349538</updated>
+      <workItem from="1679528351628" duration="4808000" />
+      <workItem from="1680054822659" duration="1936000" />
+      <workItem from="1680096314145" duration="802000" />
     </task>
     <servers />
   </component>

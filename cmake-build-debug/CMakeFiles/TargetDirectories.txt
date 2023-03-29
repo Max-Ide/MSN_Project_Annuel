@@ -1,0 +1,3 @@
+C:/Users/Steph/Code DUR/test_curl_api_23mars/cmake-build-debug/CMakeFiles/test_curl_api_23mars.dir
+C:/Users/Steph/Code DUR/test_curl_api_23mars/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Steph/Code DUR/test_curl_api_23mars/cmake-build-debug/CMakeFiles/rebuild_cache.dir

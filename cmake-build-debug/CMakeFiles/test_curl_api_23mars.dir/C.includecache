@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Steph/Code DUR/test_curl_api_23mars/inclu/json_parser.h
+cJSON.h
+-
+
+C:/Users/Steph/Code DUR/test_curl_api_23mars/include/json_parser.c
+../inclu/json_parser.h
+C:/Users/Steph/Code DUR/test_curl_api_23mars/inclu/json_parser.h
+

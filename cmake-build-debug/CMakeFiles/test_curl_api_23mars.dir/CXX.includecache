@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Steph/Code DUR/test_curl_api_23mars/inclu/curl.h
+sqlite3.h
+-
+
+C:/Users/Steph/Code DUR/test_curl_api_23mars/inclu/database.h
+
+C:/Users/Steph/Code DUR/test_curl_api_23mars/main.cpp
+stdio.h
+-
+inclu/curl.h
+C:/Users/Steph/Code DUR/test_curl_api_23mars/inclu/curl.h
+inclu/database.h
+C:/Users/Steph/Code DUR/test_curl_api_23mars/inclu/database.h
+

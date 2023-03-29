@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\test_curl_api_23mars.dir/objects.a
+C:\TDM-GCC-32\bin\ar.exe cr CMakeFiles\test_curl_api_23mars.dir/objects.a @CMakeFiles\test_curl_api_23mars.dir\objects1.rsp
+C:\TDM-GCC-32\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\test_curl_api_23mars.dir/objects.a -Wl,--no-whole-archive -o test_curl_api_23mars.exe -Wl,--out-implib,libtest_curl_api_23mars.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_curl_api_23mars.dir\linklibs.rsp
