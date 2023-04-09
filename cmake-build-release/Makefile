@@ -128,6 +128,30 @@ test_curl_api_23mars/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_curl_api_23mars.dir\build.make CMakeFiles/test_curl_api_23mars.dir/build
 .PHONY : test_curl_api_23mars/fast
 
+cmake-build-debug/Testing/excritura/yv.obj: cmake-build-debug/Testing/excritura/yv.c.obj
+.PHONY : cmake-build-debug/Testing/excritura/yv.obj
+
+# target to build an object file
+cmake-build-debug/Testing/excritura/yv.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_curl_api_23mars.dir\build.make CMakeFiles/test_curl_api_23mars.dir/cmake-build-debug/Testing/excritura/yv.c.obj
+.PHONY : cmake-build-debug/Testing/excritura/yv.c.obj
+
+cmake-build-debug/Testing/excritura/yv.i: cmake-build-debug/Testing/excritura/yv.c.i
+.PHONY : cmake-build-debug/Testing/excritura/yv.i
+
+# target to preprocess a source file
+cmake-build-debug/Testing/excritura/yv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_curl_api_23mars.dir\build.make CMakeFiles/test_curl_api_23mars.dir/cmake-build-debug/Testing/excritura/yv.c.i
+.PHONY : cmake-build-debug/Testing/excritura/yv.c.i
+
+cmake-build-debug/Testing/excritura/yv.s: cmake-build-debug/Testing/excritura/yv.c.s
+.PHONY : cmake-build-debug/Testing/excritura/yv.s
+
+# target to generate assembly for a file
+cmake-build-debug/Testing/excritura/yv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_curl_api_23mars.dir\build.make CMakeFiles/test_curl_api_23mars.dir/cmake-build-debug/Testing/excritura/yv.c.s
+.PHONY : cmake-build-debug/Testing/excritura/yv.c.s
+
 include/curl.obj: include/curl.c.obj
 .PHONY : include/curl.obj
 
@@ -233,6 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test_curl_api_23mars
+	@echo ... cmake-build-debug/Testing/excritura/yv.obj
+	@echo ... cmake-build-debug/Testing/excritura/yv.i
+	@echo ... cmake-build-debug/Testing/excritura/yv.s
 	@echo ... include/curl.obj
 	@echo ... include/curl.i
 	@echo ... include/curl.s

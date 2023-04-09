@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_curl_api_23mars.dir/cmake-build-debug/Testing/excritura/yv.c.obj"
   "CMakeFiles/test_curl_api_23mars.dir/include/curl.c.obj"
   "CMakeFiles/test_curl_api_23mars.dir/include/database.c.obj"
   "CMakeFiles/test_curl_api_23mars.dir/include/json_parser.c.obj"

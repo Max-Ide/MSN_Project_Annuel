@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/cmake-build-debug/Testing/excritura/yv.c">
+			<Option target="test_curl_api_23mars"/>
+		</Unit>
 		<Unit filename="C:/Users/Steph/OneDrive/Documents/GitHub/MSN_Project_Annuel/inclu/database.h">
 			<Option target="test_curl_api_23mars"/>
 		</Unit>
