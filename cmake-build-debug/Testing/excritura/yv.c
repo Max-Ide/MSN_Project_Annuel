@@ -176,7 +176,7 @@ void remove_newline(char *str) {
 }
 
 // Fonction pour obtenir une réponse à partir d'une question
-char* get_answer(char* question) {
+char * get_answer(char* question) {
     // Allouer de l'espace pour stocker la réponse
     char *answer = malloc(MAX_INPUT * sizeof(char));
     // Trouver l'ID de la question correspondant le mieux à la question en entrée
