@@ -4,10 +4,6 @@ $url = $_GET['url'];
 
 // Définissez les routes
 $routes = [
-    '' => 'accueil',
-    'contact' => 'contact',
-    'articles' => 'liste_articles',
-    'article/([0-9]+)' => 'article',
     'database' => 'database',
     'entities' => 'entities',
     'images' => 'images',
