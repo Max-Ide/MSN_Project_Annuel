@@ -1,33 +1,39 @@
 <?php
-// Récupérez l'URL demandée
-$url = $_GET['url'];
+session_start();
+?>
 
-// Définissez les routes
-$routes = [
-    'database' => 'database',
-    'entities' => 'entities',
-    'images' => 'images',
-    'includes' => 'includes',
-    'styles' => 'styles',
-    'user' => 'user',
-    'vendor' => 'vendor',
-    'activities.php' => 'activities',
-    'index.php' => 'index',
-    'inscription.php' => 'inscription',
-    'verif_email.php' => 'verif_email'
-];
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/epq7mib.css">
+</head>
+<body>
 
+<?php include 'includes/header.php'; ?>
 
-// Parcourez les routes pour trouver celle qui correspond à l'URL
-foreach ($routes as $pattern => $controller) {
-    if ($pattern === $url || preg_match('#^'.$pattern.'$#', $url, $params)) {
-        // Si une route correspond, incluez le contrôleur correspondant
-        include_once 'controllers/'.$controller.'.php';
-        // Appelez la fonction correspondante en passant les paramètres capturés
-        call_user_func_array($controller, array_slice($params, 1));
-        // Sortez de la boucle
-        break;
-    }
-}
+<main>
+    <div class="main-container">
+        <h2>
+            <span>Bienvenue chez</span>
+            <span>Together & Stronger</span>
+        </h2>
+        <p class="slogan">Construisons ensemble une equipe plus forte chez nous</p>
+        <div class="cta-wrapper">
+            <div class="cta-button-wrapper">
+                <a href="activities.php" class="cta-button">Decouvrir nos activites</a>
+            </div>
+            <div class="images-wrapper">
+                <img src="images/image1.jpg" alt="image1" class="image1">
+                <img src="images/image2.jpg" alt="image2" class="image2">
+            </div>
+        </div>
+    </div>
+</main>
 
+<?php include 'includes/footer.php'; ?>
 
+</body>
+</html>
