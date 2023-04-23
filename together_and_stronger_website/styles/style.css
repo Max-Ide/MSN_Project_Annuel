@@ -354,17 +354,10 @@ button[type="submit"]:hover {
     font-style: normal;
 }
 
-.alert {
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.alert-success {
-    color: #3c763d;
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+.error {
+    color: red;
+    font-size: 0.8rem;
+    display: none;
 }
 
 
@@ -470,4 +463,123 @@ button[type="submit"]:hover {
     font-family: omnes-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+/* PAGE MON COMPTE */
+
+.my-account {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.sidebar .spacer {
+    flex-grow: 1;
+}
+
+.content-ma {
+    width: 80%;
+    padding: 15px;
+}
+
+.sidebar-btn {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar-btn:hover,
+.sidebar-btn.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content-section {
+    display: none;
+}
+
+/* PAGE DASHBOARD ADMIN */ 
+
+.admin-dashboard {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar-admin {
+    width: 20%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-admin .spacer-admin {
+    flex-grow: 1;
+}
+
+.content-ad {
+    width: 80%;
+    padding: 15px;
+}
+
+.logo-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-db{
+    max-width: 80%;
+    height: auto;
+    font-size: 22px;
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sidebar-admin-btn {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sidebar-admin-btn:hover,
+.sidebar-admin-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.content-section {
+    display: none;
 }
