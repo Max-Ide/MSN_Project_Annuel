@@ -87,6 +87,63 @@ header {
     background-color: #f2f2f2;
 }
 
+/* BURGER MENU HEADER */
+
+.burger-menu {
+    position: relative; 
+}
+
+.burger-button {
+    position: relative;
+    width: 30px;
+    height: 3px;
+    background: black;
+    border: none;
+    cursor: pointer;
+}
+
+.burger-button::before,
+.burger-button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.burger-button::before {
+    top: -10px;
+}
+
+.burger-button::after {
+    top: 10px;
+}
+
+.menu-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px; 
+    background-color: #fff; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+    display: none; 
+    transition: max-height 0.3s ease-in-out; 
+    max-height: 0; 
+    overflow: hidden; 
+}
+
+.menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-content a:hover {
+    background-color: #ddd;
+}
+
 /* MAIN */
 
 main {
@@ -173,6 +230,7 @@ h2 span{
 footer {
     background-color: #00A693;
     padding: 20px 0;
+    bottom: 0;
 }
 
 .footer-container{
@@ -582,4 +640,196 @@ button[type="submit"]:hover {
 
 .content-section {
     display: none;
+}
+
+/* GESTION DES ACTIVITÉS */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  button.edit-activity,
+  button.delete-activity,
+  button#add-activity {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  button.delete-activity {
+    background-color: #dc3545;
+  }
+  
+  button#add-activity {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  button.edit-activity:hover,
+  button.delete-activity:hover,
+  button#add-activity:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+  }
+  
+  button.delete-activity:hover {
+    background-color: #c82333;
+  }  
+
+/* BOUTON USERS */
+
+button.unban-user,
+button.ban-user {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #018a41;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+button.ban-user {
+  background-color: #dc3545;
+}
+
+
+button.unban-user:hover,
+button.ban-user:hover {
+  background-color: #018a41;
+  text-decoration: none;
+}
+
+button.ban-user:hover {
+  background-color: #c82333;
+}  
+
+/* PAGE ACTIVITY DETAIL */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+.activity-detail {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+.activity-image {
+    flex: 1;
+    margin-right: 20px;
+}
+  
+.activity-image img {
+    width: 100%;
+    height: auto;
+}
+  
+.activity-duration {
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+.activity-description {
+    flex: 2;
+    margin-right: 20px;
+}
+  
+.activity-info {
+    flex: 1;
+}
+  
+.activity-price {
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.activity-participants {
+    margin-top: 10px;
+}
+  
+.booking-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+  
+.booking-btn:hover {
+    background-color: #0056b3;
+}  
+
+/* PAGE BOOKING */
+
+.booking-form {
+    background-color: var(--primary-color); 
+    width: 500px; 
+    padding: 20px; 
+    margin: 0 auto; 
+    border-radius: 10px; 
+    color: #ffffff; 
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px; 
+    border-radius: 5px; 
+    border: none;
+}
+
+.form-submit {
+    background-color: #000000;
+    color: #ffffff;
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #000000;
 }
