@@ -35,5 +35,6 @@ session_start();
 
 <?php include 'includes/footer.php'; ?>
 
+<script src="js/burgerMenuHeader.js"></script>
 </body>
 </html>
