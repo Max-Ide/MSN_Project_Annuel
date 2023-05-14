@@ -1,5 +1,6 @@
 <?php
 session_start();
+require_once __DIR__ . "/entities/activities/fetch_activity.php";
 ?>
 
 <!DOCTYPE html>
@@ -20,71 +21,24 @@ session_start();
         <p class="catalogue-phrase">Découvrez nos activités</p>
     </div>
     <hr class="catalogue-line">
-    <div class="activities-grid">
-        <div class="activity-item">
-            <img src="images/rando.jpg" alt="Activity Image">
-            <h3 class="activity-name">Randonnée</h3>
-               <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/cocktail.jpg" alt="Activity Image">
-            <h3 class="activity-name">Soirée Cocktail</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/sculpting.jpg" alt="Activity Image">
-            <h3 class="activity-name">Atelier Sculpture</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/babyfoot.jpg" alt="Activity Image">
-            <h3 class="activity-name">Baby-foot</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/pingpong3.jpg" alt="Activity Image">
-            <h3 class="activity-name">Tennis de table</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/painting.jpg" alt="Activity Image">
-            <h3 class="activity-name">Création artistique</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/travel.jpg" alt="Activity Image">
-            <h3 class="activity-name">Voyage</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/vr.jpg" alt="Activity Image">
-            <h3 class="activity-name">Activité Réalité Virtuelle</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/actculinaire2.jpg" alt="Activity Image">
-            <h3 class="activity-name">Atelier Culinaire</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/boardgame.jpg" alt="Activity Image">
-            <h3 class="activity-name">Jeux de société</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/karaoke.jpg" alt="Activity Image">
-            <h3 class="activity-name">Karaoké</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
-        <div class="activity-item">
-            <img src="images/charity2.jpg" alt="Activity Image">
-            <h3 class="activity-name">Évenement caritatif</h3>
-            <button class="discover-btn">Voir l'activité</button>
-        </div>
+    <div class="activities-grid" id="activities-grid">
+    <?php if (isset($activities) && !empty($activities)): ?>
+        <?php foreach ($activities as $activity): ?>
+            <div class="activity-item">
+                <img src="<?php echo $activity['image_url']; ?>" alt="Activity Image">
+                <h3 class="activity-name"><?php echo $activity['name']; ?></h3>
+                <button class="discover-btn" data-id="<?php echo $activity['id']; ?>" onclick="viewActivity(this);">Voir l'activité</button>
+            </div>
+        <?php endforeach; ?>
+    <?php else: ?>
+        <p>Aucune activité n'a été trouvée.</p>
+    <?php endif; ?>
     </div>   
 </main>
 
 <?php include 'includes/footer.php'; ?>
 
+<script src="js/viewActivity.js"></script>
+<script src="js/burgerMenuHeader.js"></script>
 </body>
 </html>
