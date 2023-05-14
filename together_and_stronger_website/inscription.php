@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once "user/create_user.php";
+require_once "entities/users/create_user.php";
 ?>
 
 <!DOCTYPE html>
@@ -20,12 +20,12 @@ require_once "user/create_user.php";
     <div class="signup-container">
         <div class="form-container">
             <h2>Inscrivez-vous</h2>
-            <form action="create_user.php" method="POST">
+            <form action="entities/users/create_user.php" method="POST">
                 <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom" required>
+                <input type="text" id="lastname" name="lastname" required>
 
                 <label for="prenom">Prénom</label>
-                <input type="text" id="prenom" name="prenom" required>
+                <input type="text" id="firstname" name="firstname" required>
 
                 <label for="email">Adresse e-mail</label>
                 <input type="email" id="email" name="email" required>
@@ -39,17 +39,19 @@ require_once "user/create_user.php";
                 <span class="error" id="phoneError"></span>
 
                 <label for="entreprise">Entreprise</label>
-                <input type="text" id="entreprise" name="entreprise" required>
+                <input type="text" id="name_company" name="name_company" required>
 
                 <button type="submit" class="rounded-button">S'inscrire</button>
             </form>
+            <p>Êtes-vous une entreprise ?</p>
+            <button onclick="window.location.href='inscription_entreprise.php'" class="rounded-button">Inscription Entreprise</button>
         </div>
     </div>
 </main>
 
 <?php include 'includes/footer.php'; ?>
 
-<script src="scripts/champsValidation.js"></script>
+<script src="js/champsValidation.js"></script>
 
 </body>
 </html>
