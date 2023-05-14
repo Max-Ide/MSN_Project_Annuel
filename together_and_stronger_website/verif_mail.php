@@ -10,7 +10,7 @@ if (!isset($_GET['cle']) && empty($_GET['cle'])) {
 }
 $cle = $_GET['cle'];
 
-$q = 'SELECT id FROM users WHERE cle = ?';
+$q = 'SELECT id FROM employees WHERE cle = ?';
 $stmt = $conn->prepare($q);
 
 if ($stmt === false) {
@@ -25,7 +25,7 @@ $user_infos = $result->fetch_assoc();
 $stmt->close();
 
 if ($result->num_rows > 0) {
-    $q = 'UPDATE users SET is_verified = true WHERE id = ?';
+    $q = 'UPDATE employees SET is_verified = true WHERE id = ?';
     $stmt = $conn->prepare($q);
 
     if ($stmt === false) {
@@ -38,6 +38,6 @@ if ($result->num_rows > 0) {
     header('location:index.php');
     exit;
 } else {
-    echo 'Verification invalide ! ';
+    echo 'Verification invalide !';
 }
 ?>
